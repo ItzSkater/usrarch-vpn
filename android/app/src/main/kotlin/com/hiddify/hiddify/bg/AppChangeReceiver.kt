@@ -1,9 +1,9 @@
-package com.hiddify.hiddify.bg
+package com.uflow.uflow.bg
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.hiddify.hiddify.Settings
+import com.uflow.uflow.Settings
 
 class AppChangeReceiver : BroadcastReceiver() {
 

@@ -1,10 +1,10 @@
-package com.hiddify.hiddify.bg
+package com.uflow.uflow.bg
 import android.content.BroadcastReceiver
 import android.content.Context
 
 import android.content.Intent
-import com.hiddify.hiddify.MainActivity
-import com.hiddify.hiddify.Settings
+import com.uflow.uflow.MainActivity
+import com.uflow.uflow.Settings
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

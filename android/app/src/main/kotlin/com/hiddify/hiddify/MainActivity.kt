@@ -1,4 +1,4 @@
-package com.hiddify.hiddify
+package com.uflow.uflow
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -12,11 +12,11 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.lifecycleScope
-import com.hiddify.hiddify.bg.ServiceConnection
-import com.hiddify.hiddify.bg.ServiceNotification
-import com.hiddify.hiddify.constant.Alert
-import com.hiddify.hiddify.constant.ServiceMode
-import com.hiddify.hiddify.constant.Status
+import com.uflow.uflow.bg.ServiceConnection
+import com.uflow.uflow.bg.ServiceNotification
+import com.uflow.uflow.constant.Alert
+import com.uflow.uflow.constant.ServiceMode
+import com.uflow.uflow.constant.Status
 import io.flutter.embedding.android.FlutterFragmentActivity
 import io.flutter.embedding.engine.FlutterEngine
 import kotlinx.coroutines.Dispatchers

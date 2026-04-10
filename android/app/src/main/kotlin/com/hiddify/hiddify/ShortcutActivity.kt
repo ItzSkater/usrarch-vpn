@@ -1,4 +1,4 @@
-package com.hiddify.hiddify
+package com.uflow.uflow
 
 import android.app.Activity
 import android.content.Intent
@@ -9,9 +9,9 @@ import androidx.core.content.getSystemService
 import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
-import com.hiddify.hiddify.bg.BoxService
-import com.hiddify.hiddify.bg.ServiceConnection
-import com.hiddify.hiddify.constant.Status
+import com.uflow.uflow.bg.BoxService
+import com.uflow.uflow.bg.ServiceConnection
+import com.uflow.uflow.constant.Status
 
 class ShortcutActivity : Activity(), ServiceConnection.Callback {
 

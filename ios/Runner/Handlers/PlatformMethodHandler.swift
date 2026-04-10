@@ -2,12 +2,12 @@
 //  PlatformMethodHandler.swift
 //  Runner
 //
-//  Created by Hiddify on 12/27/23.
+//  Created by U Flow on 12/27/23.
 //
 
 import Flutter
 import Combine
-import HiddifyCore
+import U FlowCore
 
 public class PlatformMethodHandler: NSObject, FlutterPlugin {
         

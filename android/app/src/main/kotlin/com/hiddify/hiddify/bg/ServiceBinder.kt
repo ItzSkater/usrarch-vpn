@@ -1,10 +1,10 @@
-package com.hiddify.hiddify.bg
+package com.uflow.uflow.bg
 
 import android.os.RemoteCallbackList
 import androidx.lifecycle.MutableLiveData
-import com.hiddify.hiddify.IService
-import com.hiddify.hiddify.IServiceCallback
-import com.hiddify.hiddify.constant.Status
+import com.uflow.uflow.IService
+import com.uflow.uflow.IServiceCallback
+import com.uflow.uflow.constant.Status
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

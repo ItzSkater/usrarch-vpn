@@ -3,13 +3,13 @@ import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:gap/gap.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hiddify/core/localization/translations.dart';
-import 'package:hiddify/core/model/constants.dart';
-import 'package:hiddify/features/profile/add/widgets/free_btns.dart';
-import 'package:hiddify/features/profile/add/widgets/widgets.dart';
-import 'package:hiddify/features/profile/model/profile_entity.dart';
-import 'package:hiddify/features/profile/notifier/profile_notifier.dart';
-import 'package:hiddify/utils/utils.dart';
+import 'package:uflow/core/localization/translations.dart';
+import 'package:uflow/core/model/constants.dart';
+import 'package:uflow/features/profile/add/widgets/free_btns.dart';
+import 'package:uflow/features/profile/add/widgets/widgets.dart';
+import 'package:uflow/features/profile/model/profile_entity.dart';
+import 'package:uflow/features/profile/notifier/profile_notifier.dart';
+import 'package:uflow/utils/utils.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class AddProfileModal extends HookConsumerWidget {

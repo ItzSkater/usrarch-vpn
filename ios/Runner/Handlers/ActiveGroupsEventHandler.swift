@@ -1,6 +1,6 @@
 import Foundation
 import Combine
-import HiddifyCore
+import U FlowCore
 
 public class ActiveGroupsEventHandler: NSObject, FlutterPlugin, FlutterStreamHandler {
     

@@ -1,4 +1,4 @@
-package com.hiddify.hiddify.bg
+package com.uflow.uflow.bg
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -18,27 +18,27 @@ import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.MutableLiveData
-import com.hiddify.hiddify.Application
-import com.hiddify.hiddify.R
-import com.hiddify.hiddify.Settings
-import com.hiddify.hiddify.constant.Action
-import com.hiddify.hiddify.constant.Alert
-import com.hiddify.hiddify.constant.Status
-import com.hiddify.core.mobile.SetupOptions
+import com.uflow.uflow.Application
+import com.uflow.uflow.R
+import com.uflow.uflow.Settings
+import com.uflow.uflow.constant.Action
+import com.uflow.uflow.constant.Alert
+import com.uflow.uflow.constant.Status
+import com.uflow.core.mobile.SetupOptions
 
 import go.Seq
-import com.hiddify.core.libbox.Libbox
-import com.hiddify.core.mobile.Mobile
+import com.uflow.core.libbox.Libbox
+import com.uflow.core.mobile.Mobile
 
 
-import com.hiddify.core.libbox.CommandServer
-import com.hiddify.core.libbox.CommandServerHandler
-import com.hiddify.core.libbox.Notification
-import com.hiddify.core.libbox.PlatformInterface
-import com.hiddify.core.libbox.SystemProxyStatus
-import com.hiddify.hiddify.BuildConfig
-import com.hiddify.hiddify.MainActivity
-import com.hiddify.hiddify.constant.Bugs
+import com.uflow.core.libbox.CommandServer
+import com.uflow.core.libbox.CommandServerHandler
+import com.uflow.core.libbox.Notification
+import com.uflow.core.libbox.PlatformInterface
+import com.uflow.core.libbox.SystemProxyStatus
+import com.uflow.uflow.BuildConfig
+import com.uflow.uflow.MainActivity
+import com.uflow.uflow.constant.Bugs
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -167,7 +167,7 @@ class BoxService(
                         it.basePath = Settings.baseDir
                         it.workingDir = Settings.workingDir
                         it.tempDir = Settings.tempDir
-                        it.fixAndroidStack = com.hiddify.hiddify.bg.Bugs.fixAndroidStack
+                        it.fixAndroidStack = com.uflow.uflow.bg.Bugs.fixAndroidStack
                         it.mode=4L//mode.toLong()
                         it.listen= "127.0.0.1:${Settings.grpcServiceModePort}"
                         it.secret=""

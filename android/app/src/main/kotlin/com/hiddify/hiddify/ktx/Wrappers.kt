@@ -1,11 +1,11 @@
-package com.hiddify.hiddify.ktx
+package com.uflow.uflow.ktx
 
 import android.net.IpPrefix
 import android.os.Build
 import androidx.annotation.RequiresApi
-import com.hiddify.core.libbox.RoutePrefix
-import com.hiddify.core.libbox.StringIterator
-import com.hiddify.core.libbox.StringBox
+import com.uflow.core.libbox.RoutePrefix
+import com.uflow.core.libbox.StringIterator
+import com.uflow.core.libbox.StringBox
 import java.net.InetAddress
 
 val StringBox?.unwrap: String

@@ -1,11 +1,11 @@
-package com.hiddify.hiddify.bg
+package com.uflow.uflow.bg
 
-import com.hiddify.hiddify.IService
-import com.hiddify.hiddify.IServiceCallback
-import com.hiddify.hiddify.Settings
-import com.hiddify.hiddify.constant.Action
-import com.hiddify.hiddify.constant.Alert
-import com.hiddify.hiddify.constant.Status
+import com.uflow.uflow.IService
+import com.uflow.uflow.IServiceCallback
+import com.uflow.uflow.Settings
+import com.uflow.uflow.constant.Action
+import com.uflow.uflow.constant.Alert
+import com.uflow.uflow.constant.Status
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent

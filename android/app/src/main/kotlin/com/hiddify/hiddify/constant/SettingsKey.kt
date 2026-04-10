@@ -1,4 +1,4 @@
-package com.hiddify.hiddify.constant
+package com.uflow.uflow.constant
 
 object SettingsKey {
     private const val KEY_PREFIX = "flutter."

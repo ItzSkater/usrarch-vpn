@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:hiddify/core/localization/translations.dart';
-import 'package:hiddify/core/model/failures.dart';
+import 'package:uflow/core/localization/translations.dart';
+import 'package:uflow/core/model/failures.dart';
 
 part 'app_update_failure.freezed.dart';
 

@@ -1,4 +1,4 @@
-package com.hiddify.hiddify.constant
+package com.uflow.uflow.constant
 
 object PerAppProxyMode {
     const val OFF = "off"

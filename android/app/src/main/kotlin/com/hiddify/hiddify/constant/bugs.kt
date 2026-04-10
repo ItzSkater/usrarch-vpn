@@ -1,8 +1,8 @@
-package com.hiddify.hiddify.constant
+package com.uflow.uflow.constant
 
 
 import android.os.Build
-import com.hiddify.hiddify.BuildConfig
+import com.uflow.uflow.BuildConfig
 
 
 object Bugs {

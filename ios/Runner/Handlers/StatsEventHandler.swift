@@ -1,7 +1,7 @@
 import Foundation
 import Flutter
 import Combine
-import HiddifyCore
+import U FlowCore
 
 public class StatsEventHandler: NSObject, FlutterPlugin, FlutterStreamHandler {
     

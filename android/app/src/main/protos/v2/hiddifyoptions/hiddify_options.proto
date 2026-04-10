@@ -1,17 +1,17 @@
 /**
- * This file defines various configuration options for the Hiddify application.
+ * This file defines various configuration options for the U Flow application.
  */
 
 syntax = "proto3";
 
-package hiddifyoptions;
-option go_package = "github.com/hiddify/hiddify-core/v2/hiddifyoptions";
-option java_package = "com.hiddify.core.api.v2.hiddifyoptions";
+package uflowoptions;
+option go_package = "github.com/uflow/uflow-core/v2/uflowoptions";
+option java_package = "com.uflow.core.api.v2.uflowoptions";
 
 /**
- * HiddifyOptions defines the configuration options for the Hiddify application.
+ * U FlowOptions defines the configuration options for the U Flow application.
  */
-message HiddifyOptions {
+message U FlowOptions {
   bool enable_full_config = 1; // Enables full configuration options.
   string log_level = 2; // Specifies the logging level (e.g., INFO, DEBUG).
   string log_file = 3; // Path to the log file.

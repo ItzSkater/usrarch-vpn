@@ -1,6 +1,6 @@
 import 'package:dartx/dartx.dart';
-import 'package:hiddify/core/model/environment.dart';
-import 'package:hiddify/features/app_update/model/remote_version_entity.dart';
+import 'package:uflow/core/model/environment.dart';
+import 'package:uflow/features/app_update/model/remote_version_entity.dart';
 
 abstract class GithubReleaseParser {
   static RemoteVersionEntity parse(Map<String, dynamic> json) {

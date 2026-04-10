@@ -2,17 +2,17 @@ import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:gap/gap.dart';
-import 'package:hiddify/core/app_info/app_info_provider.dart';
-import 'package:hiddify/core/directories/directories_provider.dart';
-import 'package:hiddify/core/localization/translations.dart';
-import 'package:hiddify/core/model/constants.dart';
-import 'package:hiddify/core/model/failures.dart';
-import 'package:hiddify/core/router/dialog/dialog_notifier.dart';
-import 'package:hiddify/core/widget/adaptive_icon.dart';
-import 'package:hiddify/features/app_update/notifier/app_update_notifier.dart';
-import 'package:hiddify/features/app_update/notifier/app_update_state.dart';
-import 'package:hiddify/gen/assets.gen.dart';
-import 'package:hiddify/utils/utils.dart';
+import 'package:uflow/core/app_info/app_info_provider.dart';
+import 'package:uflow/core/directories/directories_provider.dart';
+import 'package:uflow/core/localization/translations.dart';
+import 'package:uflow/core/model/constants.dart';
+import 'package:uflow/core/model/failures.dart';
+import 'package:uflow/core/router/dialog/dialog_notifier.dart';
+import 'package:uflow/core/widget/adaptive_icon.dart';
+import 'package:uflow/features/app_update/notifier/app_update_notifier.dart';
+import 'package:uflow/features/app_update/notifier/app_update_state.dart';
+import 'package:uflow/gen/assets.gen.dart';
+import 'package:uflow/utils/utils.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class AboutPage extends HookConsumerWidget {

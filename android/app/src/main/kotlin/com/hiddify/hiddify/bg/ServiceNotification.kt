@@ -1,4 +1,4 @@
-package com.hiddify.hiddify.bg
+package com.uflow.uflow.bg
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -14,22 +14,22 @@ import androidx.annotation.StringRes
 import androidx.core.app.NotificationCompat
 import androidx.core.app.ServiceCompat
 import androidx.lifecycle.MutableLiveData
-import com.hiddify.core.api.v2.config.Protocol
-import com.hiddify.core.api.v2.hcommon.Empty
-import com.hiddify.core.api.v2.hcore.CoreClient
-import com.hiddify.core.api.v2.hcore.SystemInfo
-import com.hiddify.core.api.v2.hello.HelloClient
-import com.hiddify.core.api.v2.hello.HelloRequest
-import com.hiddify.hiddify.Application
-import com.hiddify.hiddify.MainActivity
-import com.hiddify.hiddify.R
-import com.hiddify.hiddify.Settings
-import com.hiddify.hiddify.constant.Action
-import com.hiddify.hiddify.constant.Status
-//import com.hiddify.hiddify.utils.CommandClient
-import com.hiddify.core.libbox.Libbox
-import com.hiddify.hiddify.Application.Companion.notification
-import com.hiddify.hiddify.utils.GrpcClientProvider
+import com.uflow.core.api.v2.config.Protocol
+import com.uflow.core.api.v2.hcommon.Empty
+import com.uflow.core.api.v2.hcore.CoreClient
+import com.uflow.core.api.v2.hcore.SystemInfo
+import com.uflow.core.api.v2.hello.HelloClient
+import com.uflow.core.api.v2.hello.HelloRequest
+import com.uflow.uflow.Application
+import com.uflow.uflow.MainActivity
+import com.uflow.uflow.R
+import com.uflow.uflow.Settings
+import com.uflow.uflow.constant.Action
+import com.uflow.uflow.constant.Status
+//import com.uflow.uflow.utils.CommandClient
+import com.uflow.core.libbox.Libbox
+import com.uflow.uflow.Application.Companion.notification
+import com.uflow.uflow.utils.GrpcClientProvider
 import com.squareup.wire.GrpcClient
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -74,7 +74,7 @@ class ServiceNotification(private val status: MutableLiveData<Status>, private v
         NotificationCompat.Builder(service, notificationChannel)
                 .setShowWhen(false)
                 .setOngoing(true)
-                .setContentTitle("Hiddify")
+                .setContentTitle("U Flow")
                 .setOnlyAlertOnce(true)
                 .setSmallIcon(R.drawable.ic_stat_logo)
                 .setCategory(NotificationCompat.CATEGORY_SERVICE)
@@ -109,13 +109,13 @@ class ServiceNotification(private val status: MutableLiveData<Status>, private v
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             Application.notification.createNotificationChannel(
                 NotificationChannel(
-                    notificationChannel, "hiddify service", NotificationManager.IMPORTANCE_LOW
+                    notificationChannel, "uflow service", NotificationManager.IMPORTANCE_LOW
                 )
             )
         }
         service.startForeground(
             notificationId, notificationBuilder
-                .setContentTitle(profileName.takeIf { it.isNotBlank() } ?: "Hiddify")
+                .setContentTitle(profileName.takeIf { it.isNotBlank() } ?: "U Flow")
                 .setContentText(service.getString(contentTextId)).build()
         )
     }

@@ -1,6 +1,6 @@
-package com.hiddify.hiddify;
+package com.uflow.uflow;
 
-import com.hiddify.hiddify.IServiceCallback;
+import com.uflow.uflow.IServiceCallback;
 
 interface IService {
   int getStatus();

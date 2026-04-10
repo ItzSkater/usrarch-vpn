@@ -1,9 +1,9 @@
-display_name: Hiddify
+display_name: U Flow
 
 icon: ..\..\assets\images\windows.ico
 
 keywords:
-  - Hiddify
+  - U Flow
   - Proxy
   - VPN
   - V2ray
@@ -12,7 +12,7 @@ keywords:
   - Psiphon
   - OpenVPN
 
-generic_name: Hiddify
+generic_name: U Flow
 
 actions:
   - name: Start

@@ -1,7 +1,7 @@
-package com.hiddify.hiddify.bg
+package com.uflow.uflow.bg
 
 import android.os.Build
-import com.hiddify.hiddify.BuildConfig
+import com.uflow.uflow.BuildConfig
 
 
 object Bugs {

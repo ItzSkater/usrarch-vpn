@@ -1,11 +1,11 @@
 import 'package:drift/drift.dart';
 import 'package:drift_flutter/drift_flutter.dart';
-import 'package:hiddify/core/db/converters/duration_converter.dart';
-import 'package:hiddify/core/db/db.steps.dart';
-import 'package:hiddify/core/directories/directories_provider.dart';
-import 'package:hiddify/features/per_app_proxy/model/per_app_proxy_mode.dart';
-import 'package:hiddify/features/profile/model/profile_entity.dart';
-import 'package:hiddify/utils/custom_loggers.dart';
+import 'package:uflow/core/db/converters/duration_converter.dart';
+import 'package:uflow/core/db/db.steps.dart';
+import 'package:uflow/core/directories/directories_provider.dart';
+import 'package:uflow/features/per_app_proxy/model/per_app_proxy_mode.dart';
+import 'package:uflow/features/profile/model/profile_entity.dart';
+import 'package:uflow/utils/custom_loggers.dart';
 
 part 'db.g.dart';
 

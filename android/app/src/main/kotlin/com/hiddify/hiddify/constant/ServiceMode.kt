@@ -1,4 +1,4 @@
-package com.hiddify.hiddify.constant
+package com.uflow.uflow.constant
 
 object ServiceMode {
     const val NORMAL = "proxy"

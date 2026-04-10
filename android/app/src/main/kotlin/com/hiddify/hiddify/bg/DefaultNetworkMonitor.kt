@@ -1,10 +1,10 @@
-package com.hiddify.hiddify.bg
+package com.uflow.uflow.bg
 
 import android.net.Network
 import android.os.Build
-import com.hiddify.hiddify.Application
-import com.hiddify.core.libbox.InterfaceUpdateListener
-import com.hiddify.hiddify.constant.Bugs
+import com.uflow.uflow.Application
+import com.uflow.core.libbox.InterfaceUpdateListener
+import com.uflow.uflow.constant.Bugs
 
 
 import kotlinx.coroutines.Dispatchers

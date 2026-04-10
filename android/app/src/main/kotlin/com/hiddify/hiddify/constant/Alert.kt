@@ -1,4 +1,4 @@
-package com.hiddify.hiddify.constant
+package com.uflow.uflow.constant
 
 enum class Alert {
     RequestVPNPermission,

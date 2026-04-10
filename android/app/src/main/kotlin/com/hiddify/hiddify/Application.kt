@@ -1,4 +1,4 @@
-package com.hiddify.hiddify
+package com.uflow.uflow
 
 import android.app.Application
 import android.app.NotificationManager
@@ -9,9 +9,9 @@ import android.net.ConnectivityManager
 import android.net.wifi.WifiManager
 import android.os.PowerManager
 import androidx.core.content.getSystemService
-import com.hiddify.hiddify.bg.AppChangeReceiver
+import com.uflow.uflow.bg.AppChangeReceiver
 import go.Seq
-import com.hiddify.hiddify.Application as BoxApplication
+import com.uflow.uflow.Application as BoxApplication
 
 class Application : Application() {
 

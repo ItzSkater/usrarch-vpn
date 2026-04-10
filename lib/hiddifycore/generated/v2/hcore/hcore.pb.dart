@@ -1670,51 +1670,51 @@ class ParseResponse extends $pb.GeneratedMessage {
   void clearMessage() => clearField(3);
 }
 
-class ChangeHiddifySettingsRequest extends $pb.GeneratedMessage {
-  static final $pb.BuilderInfo _i = $pb.BuilderInfo(const $core.bool.fromEnvironment('protobuf.omit_message_names') ? '' : 'ChangeHiddifySettingsRequest', package: const $pb.PackageName(const $core.bool.fromEnvironment('protobuf.omit_message_names') ? '' : 'hcore'), createEmptyInstance: create)
-    ..aOS(1, const $core.bool.fromEnvironment('protobuf.omit_field_names') ? '' : 'hiddifySettingsJson')
+class ChangeU FlowSettingsRequest extends $pb.GeneratedMessage {
+  static final $pb.BuilderInfo _i = $pb.BuilderInfo(const $core.bool.fromEnvironment('protobuf.omit_message_names') ? '' : 'ChangeU FlowSettingsRequest', package: const $pb.PackageName(const $core.bool.fromEnvironment('protobuf.omit_message_names') ? '' : 'hcore'), createEmptyInstance: create)
+    ..aOS(1, const $core.bool.fromEnvironment('protobuf.omit_field_names') ? '' : 'uflowSettingsJson')
     ..hasRequiredFields = false
   ;
 
-  ChangeHiddifySettingsRequest._() : super();
-  factory ChangeHiddifySettingsRequest({
-    $core.String? hiddifySettingsJson,
+  ChangeU FlowSettingsRequest._() : super();
+  factory ChangeU FlowSettingsRequest({
+    $core.String? uflowSettingsJson,
   }) {
     final _result = create();
-    if (hiddifySettingsJson != null) {
-      _result.hiddifySettingsJson = hiddifySettingsJson;
+    if (uflowSettingsJson != null) {
+      _result.uflowSettingsJson = uflowSettingsJson;
     }
     return _result;
   }
-  factory ChangeHiddifySettingsRequest.fromBuffer($core.List<$core.int> i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromBuffer(i, r);
-  factory ChangeHiddifySettingsRequest.fromJson($core.String i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromJson(i, r);
+  factory ChangeU FlowSettingsRequest.fromBuffer($core.List<$core.int> i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromBuffer(i, r);
+  factory ChangeU FlowSettingsRequest.fromJson($core.String i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromJson(i, r);
   @$core.Deprecated(
   'Using this can add significant overhead to your binary. '
   'Use [GeneratedMessageGenericExtensions.deepCopy] instead. '
   'Will be removed in next major version')
-  ChangeHiddifySettingsRequest clone() => ChangeHiddifySettingsRequest()..mergeFromMessage(this);
+  ChangeU FlowSettingsRequest clone() => ChangeU FlowSettingsRequest()..mergeFromMessage(this);
   @$core.Deprecated(
   'Using this can add significant overhead to your binary. '
   'Use [GeneratedMessageGenericExtensions.rebuild] instead. '
   'Will be removed in next major version')
-  ChangeHiddifySettingsRequest copyWith(void Function(ChangeHiddifySettingsRequest) updates) => super.copyWith((message) => updates(message as ChangeHiddifySettingsRequest)) as ChangeHiddifySettingsRequest; // ignore: deprecated_member_use
+  ChangeU FlowSettingsRequest copyWith(void Function(ChangeU FlowSettingsRequest) updates) => super.copyWith((message) => updates(message as ChangeU FlowSettingsRequest)) as ChangeU FlowSettingsRequest; // ignore: deprecated_member_use
   $pb.BuilderInfo get info_ => _i;
   @$core.pragma('dart2js:noInline')
-  static ChangeHiddifySettingsRequest create() => ChangeHiddifySettingsRequest._();
-  ChangeHiddifySettingsRequest createEmptyInstance() => create();
-  static $pb.PbList<ChangeHiddifySettingsRequest> createRepeated() => $pb.PbList<ChangeHiddifySettingsRequest>();
+  static ChangeU FlowSettingsRequest create() => ChangeU FlowSettingsRequest._();
+  ChangeU FlowSettingsRequest createEmptyInstance() => create();
+  static $pb.PbList<ChangeU FlowSettingsRequest> createRepeated() => $pb.PbList<ChangeU FlowSettingsRequest>();
   @$core.pragma('dart2js:noInline')
-  static ChangeHiddifySettingsRequest getDefault() => _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<ChangeHiddifySettingsRequest>(create);
-  static ChangeHiddifySettingsRequest? _defaultInstance;
+  static ChangeU FlowSettingsRequest getDefault() => _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<ChangeU FlowSettingsRequest>(create);
+  static ChangeU FlowSettingsRequest? _defaultInstance;
 
   @$pb.TagNumber(1)
-  $core.String get hiddifySettingsJson => $_getSZ(0);
+  $core.String get uflowSettingsJson => $_getSZ(0);
   @$pb.TagNumber(1)
-  set hiddifySettingsJson($core.String v) { $_setString(0, v); }
+  set uflowSettingsJson($core.String v) { $_setString(0, v); }
   @$pb.TagNumber(1)
-  $core.bool hasHiddifySettingsJson() => $_has(0);
+  $core.bool hasU FlowSettingsJson() => $_has(0);
   @$pb.TagNumber(1)
-  void clearHiddifySettingsJson() => clearField(1);
+  void clearU FlowSettingsJson() => clearField(1);
 }
 
 class GenerateConfigRequest extends $pb.GeneratedMessage {

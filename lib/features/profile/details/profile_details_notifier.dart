@@ -1,16 +1,16 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:hiddify/core/localization/translations.dart';
-import 'package:hiddify/core/model/failures.dart';
-import 'package:hiddify/core/notification/in_app_notification_controller.dart';
-import 'package:hiddify/core/router/dialog/dialog_notifier.dart';
-import 'package:hiddify/features/profile/data/profile_data_providers.dart';
-import 'package:hiddify/features/profile/data/profile_repository.dart';
-import 'package:hiddify/features/profile/details/profile_details_state.dart';
-import 'package:hiddify/features/profile/model/profile_entity.dart';
-import 'package:hiddify/features/profile/model/profile_failure.dart';
-import 'package:hiddify/utils/utils.dart';
+import 'package:uflow/core/localization/translations.dart';
+import 'package:uflow/core/model/failures.dart';
+import 'package:uflow/core/notification/in_app_notification_controller.dart';
+import 'package:uflow/core/router/dialog/dialog_notifier.dart';
+import 'package:uflow/features/profile/data/profile_data_providers.dart';
+import 'package:uflow/features/profile/data/profile_repository.dart';
+import 'package:uflow/features/profile/details/profile_details_state.dart';
+import 'package:uflow/features/profile/model/profile_entity.dart';
+import 'package:uflow/features/profile/model/profile_failure.dart';
+import 'package:uflow/utils/utils.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'profile_details_notifier.g.dart';

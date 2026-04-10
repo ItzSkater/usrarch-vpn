@@ -10,7 +10,7 @@ import 'dart:core' as $core;
 import 'package:fixnum/fixnum.dart' as $fixnum;
 import 'package:protobuf/protobuf.dart' as $pb;
 
-import '../hiddifyoptions/hiddify_options.pb.dart' as $8;
+import '../uflowoptions/uflow_options.pb.dart' as $8;
 
 class ProfileEntity extends $pb.GeneratedMessage {
   static final $pb.BuilderInfo _i = $pb.BuilderInfo(const $core.bool.fromEnvironment('protobuf.omit_message_names') ? '' : 'ProfileEntity', package: const $pb.PackageName(const $core.bool.fromEnvironment('protobuf.omit_message_names') ? '' : 'profile'), createEmptyInstance: create)
@@ -20,7 +20,7 @@ class ProfileEntity extends $pb.GeneratedMessage {
     ..aInt64(5, const $core.bool.fromEnvironment('protobuf.omit_field_names') ? '' : 'lastUpdate')
     ..aOM<ProfileOptions>(6, const $core.bool.fromEnvironment('protobuf.omit_field_names') ? '' : 'options', subBuilder: ProfileOptions.create)
     ..aOM<SubscriptionInfo>(7, const $core.bool.fromEnvironment('protobuf.omit_field_names') ? '' : 'subInfo', subBuilder: SubscriptionInfo.create)
-    ..aOM<$8.HiddifyOptions>(8, const $core.bool.fromEnvironment('protobuf.omit_field_names') ? '' : 'overrideHiddifyOptions', subBuilder: $8.HiddifyOptions.create)
+    ..aOM<$8.U FlowOptions>(8, const $core.bool.fromEnvironment('protobuf.omit_field_names') ? '' : 'overrideU FlowOptions', subBuilder: $8.U FlowOptions.create)
     ..hasRequiredFields = false
   ;
 
@@ -32,7 +32,7 @@ class ProfileEntity extends $pb.GeneratedMessage {
     $fixnum.Int64? lastUpdate,
     ProfileOptions? options,
     SubscriptionInfo? subInfo,
-    $8.HiddifyOptions? overrideHiddifyOptions,
+    $8.U FlowOptions? overrideU FlowOptions,
   }) {
     final _result = create();
     if (id != null) {
@@ -53,8 +53,8 @@ class ProfileEntity extends $pb.GeneratedMessage {
     if (subInfo != null) {
       _result.subInfo = subInfo;
     }
-    if (overrideHiddifyOptions != null) {
-      _result.overrideHiddifyOptions = overrideHiddifyOptions;
+    if (overrideU FlowOptions != null) {
+      _result.overrideU FlowOptions = overrideU FlowOptions;
     }
     return _result;
   }
@@ -138,15 +138,15 @@ class ProfileEntity extends $pb.GeneratedMessage {
   SubscriptionInfo ensureSubInfo() => $_ensure(5);
 
   @$pb.TagNumber(8)
-  $8.HiddifyOptions get overrideHiddifyOptions => $_getN(6);
+  $8.U FlowOptions get overrideU FlowOptions => $_getN(6);
   @$pb.TagNumber(8)
-  set overrideHiddifyOptions($8.HiddifyOptions v) { setField(8, v); }
+  set overrideU FlowOptions($8.U FlowOptions v) { setField(8, v); }
   @$pb.TagNumber(8)
-  $core.bool hasOverrideHiddifyOptions() => $_has(6);
+  $core.bool hasOverrideU FlowOptions() => $_has(6);
   @$pb.TagNumber(8)
-  void clearOverrideHiddifyOptions() => clearField(8);
+  void clearOverrideU FlowOptions() => clearField(8);
   @$pb.TagNumber(8)
-  $8.HiddifyOptions ensureOverrideHiddifyOptions() => $_ensure(6);
+  $8.U FlowOptions ensureOverrideU FlowOptions() => $_ensure(6);
 }
 
 class ProfileOptions extends $pb.GeneratedMessage {

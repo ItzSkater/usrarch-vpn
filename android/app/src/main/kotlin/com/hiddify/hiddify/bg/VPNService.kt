@@ -1,7 +1,7 @@
-package com.hiddify.hiddify.bg
+package com.uflow.uflow.bg
 import android.util.Log
 
-import com.hiddify.hiddify.Settings
+import com.uflow.uflow.Settings
 import android.content.Intent
 import android.content.pm.PackageManager.NameNotFoundException
 import android.net.ProxyInfo
@@ -9,10 +9,10 @@ import android.net.VpnService
 import android.os.Build
 import android.os.IBinder
 import android.os.ParcelFileDescriptor
-import com.hiddify.core.libbox.Notification
-import com.hiddify.hiddify.constant.PerAppProxyMode
-import com.hiddify.hiddify.ktx.toIpPrefix
-import com.hiddify.core.libbox.TunOptions
+import com.uflow.core.libbox.Notification
+import com.uflow.uflow.constant.PerAppProxyMode
+import com.uflow.uflow.ktx.toIpPrefix
+import com.uflow.core.libbox.TunOptions
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
@@ -92,7 +92,7 @@ class VPNService : VpnService(), PlatformInterfaceWrapper {
 //        service.fileDescriptor?.close()
 
         val builder = Builder()
-            .setSession("hiddify")
+            .setSession("uflow")
             .setMtu(options.mtu)
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {

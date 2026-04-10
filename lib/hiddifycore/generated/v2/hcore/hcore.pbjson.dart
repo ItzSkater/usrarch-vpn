@@ -309,16 +309,16 @@ const ParseResponse$json = const {
 
 /// Descriptor for `ParseResponse`. Decode as a `google.protobuf.DescriptorProto`.
 final $typed_data.Uint8List parseResponseDescriptor = $convert.base64Decode('Cg1QYXJzZVJlc3BvbnNlEjoKDXJlc3BvbnNlX2NvZGUYASABKA4yFS5oY29tbW9uLlJlc3BvbnNlQ29kZVIMcmVzcG9uc2VDb2RlEhgKB2NvbnRlbnQYAiABKAlSB2NvbnRlbnQSGAoHbWVzc2FnZRgDIAEoCVIHbWVzc2FnZQ==');
-@$core.Deprecated('Use changeHiddifySettingsRequestDescriptor instead')
-const ChangeHiddifySettingsRequest$json = const {
-  '1': 'ChangeHiddifySettingsRequest',
+@$core.Deprecated('Use changeU FlowSettingsRequestDescriptor instead')
+const ChangeU FlowSettingsRequest$json = const {
+  '1': 'ChangeU FlowSettingsRequest',
   '2': const [
-    const {'1': 'hiddify_settings_json', '3': 1, '4': 1, '5': 9, '10': 'hiddifySettingsJson'},
+    const {'1': 'uflow_settings_json', '3': 1, '4': 1, '5': 9, '10': 'uflowSettingsJson'},
   ],
 };
 
-/// Descriptor for `ChangeHiddifySettingsRequest`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List changeHiddifySettingsRequestDescriptor = $convert.base64Decode('ChxDaGFuZ2VIaWRkaWZ5U2V0dGluZ3NSZXF1ZXN0EjIKFWhpZGRpZnlfc2V0dGluZ3NfanNvbhgBIAEoCVITaGlkZGlmeVNldHRpbmdzSnNvbg==');
+/// Descriptor for `ChangeU FlowSettingsRequest`. Decode as a `google.protobuf.DescriptorProto`.
+final $typed_data.Uint8List changeU FlowSettingsRequestDescriptor = $convert.base64Decode('ChxDaGFuZ2VIaWRkaWZ5U2V0dGluZ3NSZXF1ZXN0EjIKFWhpZGRpZnlfc2V0dGluZ3NfanNvbhgBIAEoCVITaGlkZGlmeVNldHRpbmdzSnNvbg==');
 @$core.Deprecated('Use generateConfigRequestDescriptor instead')
 const GenerateConfigRequest$json = const {
   '1': 'GenerateConfigRequest',

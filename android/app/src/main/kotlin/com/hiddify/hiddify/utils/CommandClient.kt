@@ -1,15 +1,15 @@
-package com.hiddify.hiddify.utils
+package com.uflow.uflow.utils
 
-import com.hiddify.core.libbox.CommandClient
-import com.hiddify.core.libbox.CommandClientHandler
-import com.hiddify.core.libbox.CommandClientOptions
-import com.hiddify.core.libbox.Connections
-import com.hiddify.core.libbox.Libbox
-import com.hiddify.core.libbox.OutboundGroup
-import com.hiddify.core.libbox.OutboundGroupIterator
-import com.hiddify.core.libbox.StatusMessage
-import com.hiddify.core.libbox.StringIterator
-import com.hiddify.hiddify.ktx.toList
+import com.uflow.core.libbox.CommandClient
+import com.uflow.core.libbox.CommandClientHandler
+import com.uflow.core.libbox.CommandClientOptions
+import com.uflow.core.libbox.Connections
+import com.uflow.core.libbox.Libbox
+import com.uflow.core.libbox.OutboundGroup
+import com.uflow.core.libbox.OutboundGroupIterator
+import com.uflow.core.libbox.StatusMessage
+import com.uflow.core.libbox.StringIterator
+import com.uflow.uflow.ktx.toList
 import go.Seq
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
