@@ -1,4 +1,4 @@
-name: Hiddify Custom Build
+name: Hiddify Custom iOS Build
 
 on:
   push:
@@ -12,27 +12,31 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: recursive # КРИТИЧНО: без этого не будет i2p и Tor
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          channel: 'stable'
+          channel: 'stable' # Если упадет, заменим на 3.19.6
+          cache: true
 
-      - name: Get dependencies
-        run: flutter pub get
+      - name: Get Dependencies
+        run: |
+          flutter pub get
+          # Генерируем необходимые файлы (важно для новых функций)
+          dart run build_runner build --delete-conflicting-outputs
 
-      - name: Build iOS App Bundle
+      - name: Build iOS
         run: flutter build ios --release --no-codesign
 
-      - name: Create Unsigned IPA
+      - name: Package Unsigned IPA
         run: |
           mkdir -p Payload
           cp -r build/ios/iphoneos/Runner.app Payload/
-          zip -r Hiddify_Custom.ipa Payload
+          zip -r Hiddify_Unsigned.ipa Payload
           
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Hiddify-IPA
-          path: Hiddify_Custom.ipa
+          name: Hiddify-IPA-Unsigned
+          path: Hiddify_Unsigned.ipa
